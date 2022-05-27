@@ -1,0 +1,235 @@
+
+header{
+
+    background-image: url("/imgs/cover.jpg");
+
+
+        background-position: top center;
+
+        background-size:cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 100%;
+         height: 100vh;
+
+    .shadowBox{
+
+        background-color: rgba(0, 0, 0,.33);
+        height: 100%;
+    }
+
+    nav{
+        // border: 2px solid red;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        color: white;
+    }
+
+    .phone{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        font-size: 25px;
+    }
+
+    .phone:hover{
+        color: $primary;
+       
+    }
+
+    .phone i{
+        padding: 10px;
+        border: 1px solid gray;
+        margin-right: 10px;
+    }
+
+
+    .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    
+    }
+
+    .logo img{
+        width: 50%;
+    }
+
+    .lines{
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        width: 50%;
+        padding: 10px 0px;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        transition: .3s all;
+    }
+
+    .menu:hover{
+        transform: scale(1.1);
+    }
+
+    .line{
+        background-color: white;
+        height: 4px;
+        width: 40%;
+        margin: 4px 10px;
+    }
+
+    .headerText{
+        color: white;
+        display:  flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        text-align: center;
+        margin: 1% auto;
+
+        animation: textFall 1s linear 1;
+    }
+
+
+    .headerText p{
+
+        font-family: $primaryFont;
+        color: white;
+        font-size: 20px;
+        margin: 0px;
+    }
+
+    .headerText h1{
+        font-family: $secondaryFont;
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+
+
+    .see{
+        padding: 20px;
+        font-size: 20px;
+        font-family: $primaryFont;
+        background-color: gold;
+        transition: .3s all;
+    }
+
+    .see:hover{
+        background-color: $primary;
+        
+    }
+}
+
+
+
+
+
+@keyframes textFall{
+
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// header{
+    
+//     background-color: pink;
+    
+//     nav{
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-around;
+//         align-items: center;
+//     }
+
+//     .links{
+//         display: flex;
+//         flex-direction: row;
+//         width: 40%;
+//     }
+
+//     .links a{
+//         text-decoration: none;
+//         color: black;
+//         font-weight: 900;
+//         margin: 0px 20px;
+//         font-size: 25px;
+//         transition: all .3s;
+//     }
+
+//     .logo{
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: flex-end;
+//         align-items: center;
+//         width: 50%;
+//     }
+
+//     .logo img{
+//         margin: 0px 80px;
+//         max-height: 150px;
+//     }
+
+//     .links a:hover{
+        
+//         color: red;
+//         transform: scale(1.2);
+//     }
+// }

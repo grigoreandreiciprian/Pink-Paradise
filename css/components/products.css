@@ -1,0 +1,63 @@
+.products {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  color: black;
+}
+.products .ingredients {
+  display: flex;
+  flex-direction: row;
+}
+.products .ingredients p {
+  margin: 0px 10px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.products .RandomCards {
+  width: 50%;
+  padding: 20px;
+}
+.products .DrinkCard img {
+  width: 70%;
+}
+.products .DrinkCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  padding: 20px;
+  background-color: orange;
+  text-align: center;
+}
+.products .instructions {
+  font-size: 20px;
+  margin: 10px 0px;
+  font-weight: 800;
+}
+.products .DrinkCard h1 {
+  color: #AA336A;
+  font-weight: 900;
+}
+.products .ICards {
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px 20px;
+}
+.products .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.products .btn {
+  font-size: 20px;
+  padding: 5px 10px;
+  color: black;
+}
+.products .btn:hover {
+  background-color: pink;
+}
+
+/*# sourceMappingURL=products.css.map */
